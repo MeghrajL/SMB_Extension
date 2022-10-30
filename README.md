@@ -14,14 +14,15 @@
  1. Clone this repository or download it as a zip on your local system.
  2. Open chrome and click on the extensions button (looks like a piece of jigsaw puzzle).
  3. Select Manage Extensions option which will open Extensions tab on chrome.
- 4. Click on the Load Unpacked button (located on top left corner).
+ 4. Turn on Developer mode (on the top right corner) 
+ 4. Click on the Load Unpacked button (on top left corner).
  5. A pop-up window will open in which you will have to select the Extension's folder location.
  6. Make sure that the extension is turned on and has access to all the sites (see 3 dot menu of the extension or details)
  
 Congratulations!!! You now have a working chrome extension which will block all the distracting websites.
 
 ### Steps to add more sites to the block list
-1. Open Content.js file and go to bottom of it
+1. Open Content.js file and go to bottom of it.
 2. copy paste a case before the closing curly bracket  
       case "web.whatsapp.com":  
        document.head.innerHTML = generateSTYLES();  
